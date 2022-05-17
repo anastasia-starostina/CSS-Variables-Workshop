@@ -1,0 +1,69 @@
+/*Task 1 Complete-*/
+:root {
+  --primary-colour: #BB77DB;
+  --secondary-colour: antiquewhite;
+  --text-colour: black;
+  --header-size: 24px;
+  --main-text-size: 18px;
+  --border-radius: 10px;
+}
+
+.dark-mode-theme {
+
+  --primary-colour: rgb(0, 87, 0);
+  --secondary-colour: black;
+  --text-colour: white;
+
+}
+
+
+body {
+  background-color: var(--secondary-colour);
+  color: var(--text-colour);
+}
+
+header {
+  text-align: center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  font-size: var(--main-text-size);
+}
+
+.plant-listing {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 35px 25px;
+  margin: 25px;
+  border-radius: var(--border-radius);
+  width: 25vw;
+  height: 45vh;
+  text-align: center;
+  background-color: var(--primary-colour);
+}
+
+.plant-header {
+  font-size: var(--header-size);
+}
+
+.plant-pic {
+  height: 300px;
+  width: auto;
+  border-radius: var(--border-radius);
+}
+
+button {
+  padding: 10px;
+  border-radius: var(--border-radius);
+  font-size: var(--main-text-size);
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  padding: 5vh;
+}

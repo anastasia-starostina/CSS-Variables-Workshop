@@ -1,0 +1,19 @@
+{
+  "name": "tasks_css_css-variables",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@testing-library/dom": "^7.31.2",
+    "@testing-library/jest-dom": "^5.11.2",
+    "@testing-library/user-event": "^13.5.0",
+    "jest": "^26.2.2",
+    "jsdom": "^16.3.0"
+  }
+}
